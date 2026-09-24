@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #4b3ca7;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card span {
+    font-size: 40px;
+}
+
+.card h3 {
+    margin: 15px 0 8px;
+    color: #5a45c7;
+}
+
+.card p {
+    color: #666;
+}
+
+.arquivos {
+    margin-top: 40px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.arquivos ul {
+    list-style: none;
+}
+
+.arquivos li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 25px;
+    background-color: #29243d;
+    color: white;
+    text-align: center;
+}

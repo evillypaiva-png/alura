@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Repositório de Estudos</title>
+
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Repositório de Estudos</h1>
+        <p>Organize seus documentos e materiais de estudo.</p>
+    </header>
+
+    <main>
+        <section class="materiais">
+            <h2>Meus materiais</h2>
+
+            <div class="cards">
+
+                <a href="#" class="card">
+                    <span>📐</span>
+                    <h3>Matemática</h3>
+                    <p>Apostilas, exercícios e resumos.</p>
+                </a>
+
+                <a href="#" class="card">
+                    <span>📖</span>
+                    <h3>Português</h3>
+                    <p>Gramática, textos e atividades.</p>
+                </a>
+
+                <a href="#" class="card">
+                    <span>🌎</span>
+                    <h3>História</h3>
+                    <p>Resumos e documentos históricos.</p>
+                </a>
+
+                <a href="#" class="card">
+                    <span>🔬</span>
+                    <h3>Ciências</h3>
+                    <p>Conteúdos, pesquisas e exercícios.</p>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="arquivos">
+            <h2>📂 Arquivos recentes</h2>
+
+            <ul>
+                <li>📄 Resumo de Matemática</li>
+                <li>📄 Exercícios de Português</li>
+                <li>📄 Trabalho de História</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Repositório de Estudos</p>
+    </footer>
+
+</body>
+</html>
